@@ -1,0 +1,6 @@
+Below steps involve branch protection rule enable for securing
+Goto repo setting --> click on branch protection rule classic
+Branch Pattern Name : give the protection branch name (ex. main, *release)
+add the require PR before merge option
+add required approvals
+save the options
