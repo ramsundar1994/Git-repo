@@ -35,6 +35,7 @@ jobs:
           api_location: ""                 # Leave empty if no API
           output_location: "build"         # React → build, Vue → dist, Angular → dist/<project>
           app_build_command: "npm run build"  # Explicit build command
+          skip_deploy_on_missing_secrets: true
           ###### End of Configurations ######
 
   close_pull_request_job:
@@ -47,3 +48,4 @@ jobs:
         uses: Azure/static-web-apps-deploy@v1
         with:
           action: "close"
+
