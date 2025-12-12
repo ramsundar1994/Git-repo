@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses - Cloud Academy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Cloud<span>Academy</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="courses.html" class="active">Courses</a></li>
+                    <li><a href="guidance.html">Guidance</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="register.html" class="btn">Register</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <main>
+        <section class="container" style="padding-top: 60px;">
+            <div class="section-header">
+                <h2>Our Premium Courses</h2>
+                <p>Industry-aligned curriculum designed to take you from beginner to cloud architect.</p>
+            </div>
+
+            <div class="card-grid">
+                <!-- AWS Course -->
+                <article class="course-card">
+                    <img src="images/aws.png" alt="AWS Solutions Architect" class="course-img">
+                    <div class="course-content">
+                        <span class="course-tag">Best Seller</span>
+                        <h3 style="margin: 12px 0;">AWS Solutions Architect</h3>
+                        <p style="color: var(--text-gray); margin-bottom: 20px;">Master Amazon Web Services. Covers EC2,
+                            S3, RDS, Lambda and more. Prepare for the SAA-C03 certification.</p>
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 700; color: var(--primary-color);">12 Weeks</span>
+                            <a href="register.html" class="btn btn-outline"
+                                style="border-color: var(--primary-color); color: var(--primary-color); padding: 8px 16px; font-size: 0.8rem;">Enroll
+                                Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Azure Course -->
+                <article class="course-card">
+                    <img src="images/azure.png" alt="Azure Administrator" class="course-img">
+                    <div class="course-content">
+                        <span class="course-tag" style="background: #e0f2fe; color: #0369a1;">Featured</span>
+                        <h3 style="margin: 12px 0;">Azure Administrator</h3>
+                        <p style="color: var(--text-gray); margin-bottom: 20px;">Become an expert in Microsoft Azure.
+                            Networking, Identity, and Security. Aligned with AZ-104.</p>
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 700; color: var(--primary-color);">10 Weeks</span>
+                            <a href="register.html" class="btn btn-outline"
+                                style="border-color: var(--primary-color); color: var(--primary-color); padding: 8px 16px; font-size: 0.8rem;">Enroll
+                                Now</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- GCP Course -->
+                <article class="course-card">
+                    <img src="images/gcp.png" alt="Google Cloud Engineer" class="course-img">
+                    <div class="course-content">
+                        <span class="course-tag" style="background: #ecfdf5; color: #059669;">New</span>
+                        <h3 style="margin: 12px 0;">Google Cloud Associate</h3>
+                        <p style="color: var(--text-gray); margin-bottom: 20px;">Dive into GCP's powerful data and
+                            machine learning capabilities. Kubernetes Engine, BigQuery, and more.</p>
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <span style="font-weight: 700; color: var(--primary-color);">10 Weeks</span>
+                            <a href="register.html" class="btn btn-outline"
+                                style="border-color: var(--primary-color); color: var(--primary-color); padding: 8px 16px; font-size: 0.8rem;">Enroll
+                                Now</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

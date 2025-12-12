@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Cloud Academy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header></header>
+
+    <main class="container">
+        <h1>Contact Us</h1>
+        <p style="margin-bottom: 40px;">Have questions? Reach out to us.</p>
+
+        <div style="display: flex; gap: 40px; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 300px;">
+                <div class="card">
+                    <h3>Get in Touch</h3>
+                    <header>
+                        <div class="container nav-container">
+                            <a href="index.html" class="logo">Cloud<span>Academy</span></a>
+                            <nav>
+                                <ul class="nav-links">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="courses.html">Courses</a></li>
+                                    <li><a href="guidance.html">Guidance</a></li>
+                                    <li><a href="testimonials.html">Testimonials</a></li>
+                                    <li><a href="contact.html" class="active">Contact</a></li>
+                                    <li><a href="register.html" class="btn">Register</a></li>
+                                </ul>
+                            </nav>
+                            <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+                        </div>
+                    </header>
+
+                    <main>
+                        <section class="container" style="padding-top: 60px;">
+                            <div class="section-header">
+                                <h2>Get in Touch</h2>
+                                <p>Have questions about our courses or want to visit our campus? We're here to help.</p>
+                            </div>
+
+                            <div
+                                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 60px;">
+                                <!-- Contact Info -->
+                                <div>
+                                    <div style="margin-bottom: 40px;">
+                                        <h3 style="margin-bottom: 20px;">Contact Information</h3>
+                                        <div
+                                            style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                                            <div
+                                                style="width: 40px; height: 40px; background: var(--bg-light); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--primary-color);">
+                                                <i class="fas fa-map-marker-alt"></i>
+                                            </div>
+                                            <div>
+                                                <h4 style="font-size: 1rem; margin: 0;">Address</h4>
+                                                <p style="color: var(--text-gray);">123 Cloud Street, Tech Park, Silicon
+                                                    Valley, CA</p>
+                                            </div>
+                                        </div>
+                                        <div
+                                            style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                                            <div
+                                                style="width: 40px; height: 40px; background: var(--bg-light); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--primary-color);">
+                                                <i class="fas fa-envelope"></i>
+                                            </div>
+                                            <div>
+                                                <h4 style="font-size: 1rem; margin: 0;">Email</h4>
+                                                <a href="mailto:info@cloudacademy.com"
+                                                    style="color: var(--text-gray); text-decoration: none;">info@cloudacademy.com</a>
+                                            </div>
+                                        </div>
+                                        <div style="display: flex; align-items: center; gap: 15px;">
+                                            <div
+                                                style="width: 40px; height: 40px; background: var(--bg-light); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: var(--primary-color);">
+                                                <i class="fas fa-phone"></i>
+                                            </div>
+                                            <div>
+                                                <h4 style="font-size: 1rem; margin: 0;">Phone</h4>
+                                                <p style="color: var(--text-gray);">+1 (234) 567-890</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Map Placeholder -->
+                                    <div
+                                        style="width: 100%; height: 300px; background: #e2e8f0; border-radius: var(--radius-md); display: flex; align-items: center; justify-content: center; color: var(--text-gray);">
+                                        <i class="fas fa-map" style="margin-right: 10px;"></i> Map View
+                                    </div>
+                                </div>
+
+                                <!-- Contact Form -->
+                                <div class="contact-form-container">
+                                    <h3 style="margin-bottom: 30px;">Send us a message</h3>
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="name">Full Name</label>
+                                            <input type="text" id="name" placeholder="John Doe">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">Email Address</label>
+                                            <input type="email" id="email" placeholder="john@example.com">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="subject">Subject</label>
+                                            <select id="subject">
+                                                <option>General Inquiry</option>
+                                                <option>Course Details</option>
+                                                <option>Partnership</option>
+                                                <option>Support</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="message">Message</label>
+                                            <textarea id="message" rows="5"
+                                                placeholder="How can we help you?"></textarea>
+                                        </div>
+                                        <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </section>
+                    </main>
+
+                    <footer>
+                        <div class="container">
+                            <div class="footer-content">
+                                <div class="footer-col">
+                                    <h4>Cloud Academy</h4>
+                                    <p>Empowering the next generation of cloud architects with premium education and
+                                        career guidance.</p>
+                                </div>
+                                <div class="footer-col">
+                                    <h4>Quick Links</h4>
+                                    <ul class="footer-links-list">
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="courses.html">Our Courses</a></li>
+                                        <li><a href="guidance.html">Career Guidance</a></li>
+                                        <li><a href="testimonials.html">Success Stories</a></li>
+                                    </ul>
+                                </div>
+                                <div class="footer-col">
+                                    <h4>Contact</h4>
+                                    <ul class="footer-links-list">
+                                        <li><a href="mailto:info@cloudacademy.com">info@cloudacademy.com</a></li>
+                                        <li><a href="tel:+1234567890">+1 (234) 567-890</a></li>
+                                        <li>123 Cloud Street, Tech Park</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="copyright">
+                                <p>&copy; 2025 Cloud Academy. All rights reserved.</p>
+                            </div>
+                        </div>
+                    </footer>
+                    <script src="main.js"></script>
+</body>
+
+</html>
